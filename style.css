@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    background-color: rgb(234, 220, 249);
+}
+
+body {
+    height: 100vh;
+    margin: 0;;
+    padding-right: 10%;
+    padding-top: 15%;
+    overflow: hidden;
+    overflow-y: auto;
+    font-family: Roboto, sans-serif;
+    display: flex;
+    justify-content: space-around;
+  }
+
+table {
+    border-collapse: collapse;
+}
+
+
+th, td {
+    padding: 8px 4px;
+    border: 2px solid black;
+}
+
+.MobileCalendar {
+    height: 100%;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+}
+
+.Mdays {
+    margin: 32px;
+}
