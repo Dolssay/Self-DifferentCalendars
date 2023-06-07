@@ -36,6 +36,7 @@ caption {
 th, td {
     padding: 8px 4px;
     border: 2px solid black;
+    width: 100px;
 }
 
 .highlight-cell {
@@ -45,11 +46,12 @@ font-weight: bold;
 
 .FixedCalendar {
     display: flex;
-    flex-flow: column wrap;
+    flex-flow: column;
     justify-content: flex-start;
 }
 
 .MobileCalendar {
+    flex-shrink: 0.5;
     height: 100%;
     display: flex;
     flex-flow: column;
